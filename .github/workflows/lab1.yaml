@@ -10,4 +10,7 @@ jobs:
       - name: ci_run
         run: |
           pip install -r requirements.txt
+          pip install flake8
           pytest tests/
+          flake8 .
+          
