@@ -14,6 +14,7 @@ from src.student import StudentDB
 #     print("cerrando db ...")
 #     db.close()
 
+
 @pytest.fixture(scope="module")
 def db():
     print('---setup---')

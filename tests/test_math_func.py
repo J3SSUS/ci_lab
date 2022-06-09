@@ -1,17 +1,17 @@
-import sys
 from src import math_func
 import pytest
+
 
 @pytest.mark.number
 # @pytest.mark.skip(reason="no ejecutar esto")
 def test_add():
-    assert math_func.add(7,3) == 10
+    assert math_func.add(7, 3) == 10
     assert math_func.add(7) == 9
 
 
 @pytest.mark.number
 def test_product():
-    assert math_func.product(5,5) == 25
+    assert math_func.product(5, 5) == 25
     assert math_func.product(5) == 10
 
 
