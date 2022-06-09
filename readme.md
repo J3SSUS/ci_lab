@@ -9,3 +9,4 @@
 7. pytest tests/test_math_func.py::test_add -v
 8. pytest tests/ -v -m number
 9. pytest tests/ -v -k "add" -> solo los que contienen la palabra add
+10. pytest --cov=src tests/ -v
